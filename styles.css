@@ -2,8 +2,9 @@ h1{
 	color:blue;
 }
 *{
-  /* this will put a border around every element. It will be ugly, but useful to see how the framework is working */
-  border: 1px dashed orange !important;
+  /* this will put a border around every element. It will be ugly, but useful to see how the framework is working 
+  border: 1px dashed orange !important;*/
+  font-family: 'Lato', sans-serif;
 }
 *{
   /** this code tells the browser to include the border in calculating an element's height and width. webkit, moz, and ms are specifications for chrome, mozilla firefox, and internet explore **/
@@ -16,12 +17,12 @@ h1{
 	width: 100%;
 	display: flex;
 	text-align: center;
+	padding: 10px;
 }
 .header{
 	display: block;
 	text-align: right;
 }
-
 .col-1{
   width: 8.33%;
 }
