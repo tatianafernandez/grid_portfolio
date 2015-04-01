@@ -3,7 +3,7 @@ h1{
 }
 *{
   /* this will put a border around every element. It will be ugly, but useful to see how the framework is working */
-  border: 1px solid orange !important;
+  border: 1px dashed orange !important;
 }
 *{
   /** this code tells the browser to include the border in calculating an element's height and width. webkit, moz, and ms are specifications for chrome, mozilla firefox, and internet explore **/
@@ -12,11 +12,16 @@ h1{
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-.row{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap; 
+.featwork{
+	width: 100%;
+	display: flex;
+	text-align: center;
 }
+.header{
+	display: block;
+	text-align: right;
+}
+
 .col-1{
   width: 8.33%;
 }
